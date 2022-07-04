@@ -1,5 +1,5 @@
 {
-  "name": "qqmap",
+  "name": "qqmap-gl-typings",
   "version": "1.0.0",
   "description": "腾讯地图 GL SDK 声明文件",
   "main": "index.d.ts",
