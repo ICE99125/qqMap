@@ -1,1 +1,1 @@
-/// <reference path="./src/index.d.ts" />
+/// <reference path="lib/index.d.ts" />

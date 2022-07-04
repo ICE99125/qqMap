@@ -2,15 +2,15 @@ declare namespace TMap {
   namespace constants {
     // 控件位置
     enum CONTROL_POSITION {
-      TOP_LEFT, //	左上
-      TOP_CENTER, //	顶部中间
-      TOP_RIGHT, //	右上
-      CENTER_LEFT, //	左侧中间
-      CENTER, //	图区中间
-      CENTER_RIGHT, //	右侧中间
-      BOTTOM_LEFT, //	左下
-      BOTTOM_CENTER, //	底部中间
-      BOTTOM_RIGHT, //	右下
+      TOP_LEFT, // 左上
+      TOP_CENTER, // 顶部中间
+      TOP_RIGHT, // 右上
+      CENTER_LEFT, // 左侧中间
+      CENTER, // 图区中间
+      CENTER_RIGHT, // 右侧中间
+      BOTTOM_LEFT, // 左下
+      BOTTOM_CENTER, // 底部中间
+      BOTTOM_RIGHT, // 右下
     }
 
     enum IMAGE_DISPLAY {
@@ -23,7 +23,7 @@ declare namespace TMap {
     enum DEFAULT_CONTROL_ID {
       FLOOR = 'floor',
       ROTATION = 'rotation', // 旋转控件
-      SCALE = 'scale', //	比例尺控件
+      SCALE = 'scale', // 比例尺控件
       ZOOM = 'zoom', // 缩放控件
     }
 
