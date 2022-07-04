@@ -22,11 +22,11 @@ declare namespace TMap {
   class MultiMarker {
     constructor(options: MultiMarkerOptions);
 
-    setMap(map: Map): MultiMarker; // 设置地图对象, 如果 map 为 null 意味着将多个标注点同时从地图中移除
+    setMap(map: Map | null): MultiMarker; // 设置地图对象, 如果 map 为 null 意味着将多个标注点同时从地图中移除
 
-    setGeometries(geometries: PointGeometry[]): MultiMarker; // 更新标注点数据, 如果参数为 null 或 undefined 不会做任何处理
+    setGeometries(geometries: PointGeometry[] | null | undefined): MultiMarker; // 更新标注点数据, 如果参数为 null 或 undefined 不会做任何处理
 
-    setStyles(styles: MultiMarkerStyleHash): MultiMarker; // 设置 MultiMarker 图层相关样式信息, 如果参数为 null 或 undefined 不会做任何处理
+    setStyles(styles: MultiMarkerStyleHash | null | undefined): MultiMarker; // 设置 MultiMarker 图层相关样式信息, 如果参数为 null 或 undefined 不会做任何处理
 
     setVisible(visible: boolean): MultiMarker; // 设置图层是否可见
 

@@ -1,4 +1,4 @@
-// 各种基类
+// 基础类
 declare namespace TMap {
   // 控件基类
   // docs: https://lbs.qq.com/webApi/javascriptGL/glDoc/glDocControl#1
