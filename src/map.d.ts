@@ -1,4 +1,3 @@
-// 腾讯地图 GL
 declare namespace TMap {
   type EvtName =
     | 'idle'
