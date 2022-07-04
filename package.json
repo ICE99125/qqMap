@@ -2,11 +2,31 @@
   "name": "qqmap",
   "version": "1.0.0",
   "description": "腾讯地图 GL SDK 声明文件",
-  "main": "index.js",
+  "main": "index.d.ts",
+  "types": "index.d.ts",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "eslint": "eslint --config .eslintrc.yml src/*.ts"
+  },
+  "homepage": "https://github.com/ICE99125/qqMap/blob/main/README.md",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ICE99125/qqMap.git"
   },
   "keywords": [],
-  "author": "ARCTURUS",
-  "license": "MIT"
+  "author": "ARCTURUS <1638330246@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.30.4",
+    "@typescript-eslint/parser": "^5.30.4",
+    "eslint": "^7.32.0 || ^8.2.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "tsd": "^0.22.0",
+    "typescript": "^4.7.4"
+  },
+  "files": [
+    "src",
+    "index.d.ts"
+  ]
 }
