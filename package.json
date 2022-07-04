@@ -6,7 +6,7 @@
   "types": "index.d.ts",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "eslint": "eslint --config .eslintrc.yml lib/**/*.ts"
+    "eslint": "eslint --config .eslintrc.js lib/**/*.ts"
   },
   "homepage": "https://github.com/ICE99125/qqMap/blob/main/README.md",
   "repository": {
@@ -25,7 +25,7 @@
     "typescript": "^4.7.4"
   },
   "files": [
-    "src",
+    "lib",
     "index.d.ts"
   ]
 }
